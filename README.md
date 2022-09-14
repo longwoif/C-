@@ -1,11 +1,19 @@
 # C-
 
 C语言输出一句话
+例1
 #include<stdio.h> 头文件
 int main() 定义为整数值
 {
 printf("Welcome to Minjiang College!\n"); 输出内容  “\n”换行
 return 0; 程序完成时关闭
+}
+例2
+#include<stdio.h> 
+int main() 
+{
+printf("花好还须戴\n周诗念忠嘉\n天闲畜神骏\n遥题应未的\n赵子有新作\n他年恢远业\n"); 
+return 0; 
 }
 
 C语言输入两个整数,计算两数之和
@@ -26,9 +34,8 @@ return 0;//返回;
 int main()
 {
 int a,b,sum;
-a=1;
-b=2;
-scanf("%d %d",&a,&b);
+a=20020;
+b=813;
 sum=a+b;
 printf("这两个数的和是：%d\n",sum);
 return 0;
