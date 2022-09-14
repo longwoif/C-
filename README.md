@@ -1,4 +1,5 @@
 # C-
+
 C语言输出一句话
 #include<stdio.h> 头文件
 int main() 定义为整数值
@@ -6,7 +7,9 @@ int main() 定义为整数值
 printf("Welcome to Minjiang College!\n"); 输出内容  “\n”换行
 return 0; 程序完成时关闭
 }
+
 C语言输入两个整数,计算两数之和
+例1
 #include <stdio.h>
 int main()
 {
@@ -17,4 +20,16 @@ sum=a+b;//三、数据处理,把a、b的和赋值给sum;
 printf("这两个数的和是：%d\n",sum);//四、输出结果,%d输出一个整形数这个数就是sum;
 printf("计算完成，谢谢使用！");
 return 0;//返回;
+}
+例2
+#include <stdio.h>
+int main()
+{
+int a,b,sum;
+a=1;
+b=2;
+scanf("%d %d",&a,&b);
+sum=a+b;
+printf("这两个数的和是：%d\n",sum);
+return 0;
 }
