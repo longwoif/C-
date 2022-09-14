@@ -34,26 +34,26 @@ return 0;//返回;
 int main()
 {
 int a,b,sum;
-a=20020;
-b=813;
+scanf("%d %d",&a,&b);
 sum=a+b;
 printf("这两个数的和是：%d\n",sum);
 return 0;
 }
 
-#include <stdio.h>
+额外习题？函数调用？
+#include <stdio.h> 
 int sum_f(int x,int y)
 {
-int s;
-s=x+y;
-return s;
+	int s;
+	s=x+y;
+	return s;
 }
+
 int main()
 {
-int a,b,sum;
-a=20020;
-b=813;
-sum=sun_f(a,b);
-printf("sum=%d\n",sum);
-return 0;
+	int a,b,sum;
+	scanf("%d%d",&a,&b);
+	sum=sum_f(a,b);
+	printf("sum=%d",sum);
+	return 0; 
 }
