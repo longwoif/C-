@@ -152,3 +152,50 @@ a=8;x=3.5;y=5.9;
 t=x+a%3*int(x+y)%2/4;
 printf("%f",t);
 }
+
+书第二章习题选择题程序
+# include <stdio.h>
+# include <math.h>
+int main()
+{
+int m,w=1,x=2,y=3,z=4;
+m=(w<x)?w:x;
+m=(m<y)?m:y;
+m=(m<z)?m:z;
+printf("m=%d",m);
+}
+m=1
+书第二章习题填空题程序
+# include <stdio.h>
+# include <math.h>
+int main()
+{
+int c=28,d=7;
+printf("m=%d",c||d&&(c-4*d));
+}
+
+【例2-2】整型变量的定义与使用。
+#include <stdio.h>
+main()
+{
+int a,b,c,d;
+unsigned u;
+a=12;b=-24;u=10;
+c=a+u;d=b+u;
+printf("%d,%d\n",c,d);
+}
+
+【例2-3】整型数据的运算。
+#include <stdio.h>
+main()
+{
+int a,b;
+a=32767;
+b=a+1;
+printf("\na=%d,a+1=%d\n",a,b);
+a=-32768;
+b=a-1;
+printf("\na=%d,a-1=%d\n",a,b);
+}
+
+
